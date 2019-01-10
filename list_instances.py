@@ -215,6 +215,7 @@ if AllPredefinedTags:
         header = header + FieldSeperator + "{}.{}".format(namespace.name,tag.name)
 
 print (header)
+report.write("SEP=,"+EndLine)
 report.write(header+EndLine)
 
 
